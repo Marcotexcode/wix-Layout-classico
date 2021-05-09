@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 body {
@@ -21,18 +20,13 @@ body {
 
 div > *, a, i {
     color: #7b7b7b;
+    font-weight: 100;
 }
 
 
 
 
 /* tool-bar */
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .tool-bar-cont-sx{
     width: 15%;
@@ -79,6 +73,7 @@ div > *, a, i {
 }
 
 .btn {
+    text-decoration: none;
     color: white;
     background-color: #116dff;
     padding: 10px 27px;
@@ -92,3 +87,94 @@ div > *, a, i {
 .fa-desktop, .fa-mobile-alt:hover {
     color: #4c91ff;
 }
+
+
+
+/* conitore generale */
+
+.container-general {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+/* header */
+
+header {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.link i {
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+
+/* menu */
+
+.menu {
+    margin: 30px 0px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e6e6;
+    color: #000;
+    padding: 5px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.menu a:hover {
+    background-color: #6b6b6b;
+    color: white;
+}
+
+li:nth-child(1) a {
+    background: #c7c7c7;
+}
+
+li:nth-child(2) {
+    border-left: 1px solid #d7d6d6;
+    border-right: 1px solid #d7d6d6;
+}
+
+li:nth-child(3) {
+    border-right: 1px solid #d7d6d6;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li { 
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/* menu tendina */
+
+.menu li:hover .menu-tendina li {
+    top: 7px;
+    display: block;
+}
+
+.menu-tendina  li {
+    display: none;
+}
+
+.menu-tendina {
+    position: absolute;
+    width: 100%;
+}
+
