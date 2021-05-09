@@ -178,3 +178,20 @@ li:nth-child(3) {
     width: 100%;
 }
 
+
+
+
+/* corpo  */
+
+.img-principal img {
+    width: 100%;
+}
+
+.col{
+    width: calc(100% / 3 - 20px);
+}
+
+.row img{
+    margin: 20px 0px;
+    width: 100%;
+}
