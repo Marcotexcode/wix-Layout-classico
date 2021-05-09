@@ -1,6 +1,6 @@
 
 
-/* COMMONS SECTION */
+/********** COMMONS SECTION ***********/
 
 * {
     margin: 0;
@@ -26,7 +26,17 @@ div > *, a, i {
 
 
 
-/* tool-bar */
+/********** tool-bar ***********/
+
+.tool-bar {
+    top: 0;
+    position: fixed;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+    width: 100%;
+    z-index: 10000;
+}
 
 .tool-bar-cont-sx{
     width: 15%;
@@ -42,15 +52,6 @@ div > *, a, i {
 
 .tool-bar-cont-sx i {
     font-size: 30px;
-}
-
-.tool-bar {
-    top: 0;
-    position: fixed;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
-    width: 100%;
 }
 
 .tool-bar-cont-sx img {
@@ -90,7 +91,7 @@ div > *, a, i {
 
 
 
-/* conitore generale */
+/********** conitore generale ***********/
 
 .container-general {
     width: 70%;
@@ -100,7 +101,7 @@ div > *, a, i {
 
 
 
-/* header */
+/********** header ***********/
 
 header {
     width: 100%;
@@ -116,7 +117,7 @@ header {
 
 
 
-/* menu */
+/********** menu ***********/
 
 .menu {
     margin: 30px 0px;
@@ -162,7 +163,7 @@ li:nth-child(3) {
     text-align: center;
 }
 
-/* menu tendina */
+/********** menu tendina ***********/
 
 .menu li:hover .menu-tendina li {
     top: 7px;
@@ -181,7 +182,7 @@ li:nth-child(3) {
 
 
 
-/* corpo  */
+/********** corpo  ***********/
 
 .img-principal img {
     width: 100%;
